@@ -1,0 +1,17 @@
+{
+	"name": "Ubuntu",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"rangav.vscode-thunder-client",
+				"Codeium.codeium",
+				"editorconfig.editorconfig",
+				"chang196700.newline",
+				"budparr.language-hugo-vscode"
+			]
+		}
+	}
+}
