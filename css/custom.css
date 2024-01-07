@@ -1,0 +1,12 @@
+li {
+    padding-bottom: .5em;
+    font-size: 20px;
+}
+
+.navbar {
+    background-color: #50808E !important;
+
+    .navbar-brand {
+        padding: .5rem;
+    }
+}
