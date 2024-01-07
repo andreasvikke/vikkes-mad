@@ -1,0 +1,22 @@
+<div class="card" style="border-radius: 1%;">
+    <a href="{{ .Permalink }}" style="text-decoration: none; color: inherit">
+    <div class="card-image">
+        <figure class="image is-4by4">
+        <img style="border-radius: 3%;" src="{{ $.Params.Recipe_image | absURL }}" width="{{ $.Params.Image_width }}" height="{{ $.Params.Image_height }}" alt="Placeholder image">
+        </figure>
+    </div>
+    <div class="card-content">
+        <div class="media-content">
+            <p class="title is-4 has-text-centered">{{ $.Title }}</p>
+        </div>
+        <div class="content">
+            <br>
+                <i class="fas fa-tags pr-2"></i>
+                {{ range $index, $element := $.Params.Tags }}
+                <a href="/tags/{{ $element }}">#{{$element}}</a>
+                {{ end }}
+            <br>
+        </div>
+    </div>
+    </a>
+</div>
