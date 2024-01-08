@@ -34,7 +34,7 @@ calories_increment: pr. portion
 
 ## Fremgangsmåde
 
-1. I en skål blandes soyasauce, sesamolie, risvineddike, honning og gochujang.
+1. I en skål blandes soyasauce, fish sauce sesamolie, risvineddike, honning og gochujang.
 2. Placer kyllingebrysterne i en frysepose og hæld halvdelen af saucemikset over dem. Luk posen og mariner i køleskabet i mindst 30 minutter.
 3. Kog risene i henhold til pakkeinstruktionerne.
 4. I en airfyer steges kyllingen ved cirka 180 grader i 16-18 minutter, vend den halvvejs igennem, så den bliver gennemstegt og har en gyldenbrun skorpe hele vejen rundt.
