@@ -3,7 +3,6 @@ draft: false
 title: "Kærne Morgenboller (10-12 stk.)"
 recipe_image: images/Kærne-Morgenboller.png
 image_width: 512
-image_height: 512
 tags: ["Bagning"]
 servings: 10-12
 prep_time: 5

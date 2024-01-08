@@ -3,7 +3,6 @@ draft: false
 title: "Poke Bowl med kylling og ærter"
 recipe_image: images/Poke-Bowl-med-kylling-og-ærter.png
 image_width: 512
-image_height: 512
 tags: ["Asiatisk", "Airfryer"]
 servings: 10-12
 prep_time: 15
