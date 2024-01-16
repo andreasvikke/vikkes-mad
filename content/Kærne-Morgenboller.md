@@ -12,6 +12,7 @@ cook_increment: minutes # set to minutes or hours
 cook_time: 15 #in minutes #can be BLANK
 calories: Ca. 190 #in kcal #can be BLANK
 calories_increment: pr. bolle
+date: 2024-01-01
 ---
 
 ## Ingredienser

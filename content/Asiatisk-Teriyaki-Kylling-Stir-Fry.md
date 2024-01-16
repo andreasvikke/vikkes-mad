@@ -11,6 +11,7 @@ cook_increment: minutes # set to minutes or hours
 cook_time: 20 #in minutes #can be BLANK
 calories: Ca. 580 #in kcal #can be BLANK
 calories_increment: pr. portion
+date: 2024-01-02
 ---
 
 ## Ingredienser
