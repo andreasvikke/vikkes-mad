@@ -3,7 +3,7 @@ draft: false
 title: "Asiatisk Teriyaki Kylling Stir Fry"
 recipe_image: images/Asiatisk-Teriyaki-Kylling-Stir-Fry.png
 image_width: 512
-tags: ["Asiatisk", "Airfryer"]
+tags: ["Asiatisk", "Airfryer", "Stir-Fry"]
 servings: 4 personer
 prep_time: 10
 cook: true 
