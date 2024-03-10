@@ -24,19 +24,22 @@ Alert
 <div class=navbar-start>
 <a class=navbar-item href=/>
 <i class="fas fa-home pr-2"></i>
-Home</a>
+Hjem</a>
 <a class=navbar-item href=/tags/>
 <i class="fas fa-tags pr-2"></i>
-Categories</a>
+Kategorier</a>
+<a class=navbar-item href=https://drinks.andreasvikke.dk>
+<i class="fas fa-cocktail pr-2"></i>
+Drinks</a>
 </div>
 <div class=navbar-end>
 <div class=navbar-item>
 <form class="field has-addons">
 <div class=control>
-<input class=input id=searchTerm type=text placeholder="Search Term...">
+<input class=input id=searchTerm type=text placeholder=Søgord...>
 </div>
 <div class=control>
-<button id=searchButton class="button is-secondary">Search</button>
+<button id=searchButton class="button is-secondary">Søg</button>
 </div>
 </form>
 </div>
@@ -44,7 +47,7 @@ Categories</a>
 </div>
 </nav>
 <div id=searchResults class="section is-hidden">
-<h4 class="title is-3"> Search results </h4>
+<h4 class="title is-3"> Søge resultat </h4>
 <div id=searchResultsCol class="columns is-multiline">
 </div>
 </div>
@@ -53,7 +56,7 @@ Categories</a>
         <div class="result" id="summary-${key}">
             <div class="card" style="border-radius: 1%;">
     <div class="card-image">
-        <figure class="image is-4by3">
+        <figure class="image is-4by4">
         <img style="border-radius: 3%;" src="${image}" alt="Placeholder image">
         </figure>
     </div>
@@ -66,13 +69,14 @@ Categories</a>
             <p class="is-small">${snippet}</p>
         </div>
         <div class="card-footer">
-            <a href="${link}" class="card-footer-item button is-primary">View Recipe</a>
+            <a href="${link}" class="card-footer-item button is-primary">Hvis Opskrift</a>
         </div>
     </div>
 </div>
         </div>
     </div>
-</script><div id=content>
+</script>
+<div id=content>
 <div class=section>
 <div class="columns is-centered">
 <div class="column is-full-mobile is-half-desktop" style="border-radius:1%;box-shadow:0 4px 8px rgba(0,0,0,.2),0 6px 20px rgba(0,0,0,.19)">
@@ -98,24 +102,24 @@ Categories</a>
 <div class="column is-half-mobile" style="border-right:1px solid #dbdbdb">
 <i class="fas fa-concierge-bell fa-lg"></i>
 <div></div>
-<p class="has-text-weight-bold is-size-6">Servings</p>
+<p class="has-text-weight-bold is-size-6">Serveringer</p>
 <div></div>
-10-12 Servings
+10-12 Serveringer
 </div>
 <div class="column is-half-mobile" style="border-right:1px solid #dbdbdb">
 <i class="fas fa-hourglass-half fa-lg"></i>
 <div></div>
-<p class="has-text-weight-bold is-size-6">Prep time</p>
+<p class="has-text-weight-bold is-size-6">Forberedelsestid</p>
 <div></div>
-5 Minutes <br>
+5 Minutter <br>
 (2 Timers Hævning)
 </div>
 <div class="column is-half-mobile" style="border-right:1px solid #dbdbdb">
 <i class="fas fa-temperature-high fa-lg"></i>
 <div></div>
-<p class="has-text-weight-bold is-size-6">Cooking Time</p>
+<p class="has-text-weight-bold is-size-6">Madlavningstid</p>
 <div></div>
-15 Minutes
+15 Minutter
 </div>
 <div class="column is-half-mobile">
 <i class="fas fa-fire fa-lg"></i>
@@ -157,7 +161,7 @@ Ca. 190 Kcal pr. bolle
 </div>
 </div>
 </div><p class="footer text-center">
-<a href=https://andreasvikke.dk target=_blank>© Andreas Vikke 2022</a>
+<a href=https://andreasvikke.dk target=_blank>© Andreas Vikke 2024</a>
 </p>
 <script src=/js/umbrella.min.js></script>
 <script src=/js/custom.js></script>
